@@ -1,0 +1,84 @@
+
+.map{
+    margin: 50px 0px;
+}
+.map-flex{
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.map-cont{
+    
+}
+.map-cont h2{
+    font-weight: 900;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+}
+.map-cont h1{
+    font-weight: 900;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 0px;
+}
+.map-cont label{
+    opacity: 0.8;
+    font-size: 18px;
+    margin:20px 0px;
+}
+.map-cont div i{
+    font-size: 40px;
+    margin-left:10px ;
+    transition: 0.2s all;
+}
+.map-cont div i:hover{
+    color: #4868E9;
+}
+.map-item{
+    padding: 0px!important;
+}
+.map-item iframe{
+    width: 100%;
+}
+
+.form{
+    background-color: white;
+}
+.form input{
+    width: 50%;
+    border: none;
+    height: 50px;
+    background-color: #f5f5f5;
+}
+.form textarea{
+    width: 50%;
+    border: none;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width:500px){
+    .map{
+        margin: 10px 0px;
+    }
+    .map-cont h2{
+        margin: 20px 10px;
+        font-size: 15px;
+    }
+    .map-cont h1{
+        margin: 20px 10px;
+        font-size: 20px;
+    }
+    .map-cont label{
+        font-size: 13px;
+    }
+    .map-cont div i{
+        font-size: 20px;
+        margin: 20px 5px 20px 0px;
+    }
+    .form input{
+        width:90%;
+    }
+    .form textarea{
+        width: 90%;
+    }
+}

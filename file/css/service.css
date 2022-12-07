@@ -1,0 +1,87 @@
+
+
+/* -------------page2------------- */
+.details{
+    padding: 40px 10px;
+}
+.page2-cont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.details i{
+    font-size: 40px;
+    color: #7E8690;
+}
+.details-text{
+    margin-left: 30px;
+}
+.details-text h3{
+    font-weight: 900;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    margin: 8px 0px;
+}
+.details-text p{
+    opacity: 0.8;
+    margin: 15px 0px;
+}
+@media only screen and (max-width:500px){
+    .pad{
+        padding: 0;
+    }
+    .details{
+        padding: 40px 20px!important;
+    }
+}
+
+/* ----------------pricing----------- */
+
+.page4  {
+    height: 110vh;
+    background-color: #7e869013;
+}
+
+.p-7{
+    background-image: linear-gradient(#4868e8e7,#4868e8f6), url(../img/banner-1.jpg);
+    height: 70vh;
+}
+
+
+@media only screen and (max-width:500px){
+    .p-7{
+        height: auto;
+    }
+    .page4{
+        height: 320vh;
+    }
+}
+
+
+/* ------page3---------------------- */
+.page3{
+    background-color: #7e869013;
+
+}
+.page3-cont{
+    margin: 10px 0px 30px;
+}
+.page3-cont h1{
+    color: rgba(128, 128, 128, 0.546);  
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.page3-cont h2{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+.page3-cont p{
+    opacity: 0.8;
+    font-size: 18px;
+}
+.page3-flex{
+    justify-content: space-between;
+}
