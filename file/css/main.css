@@ -288,23 +288,23 @@ header{
 
 @media only screen and (max-width:500px){
     .p-2{
-    /* background-color: #4869E8; */
     width: 100%;
-    height: 60vh;
+    height: auto;
     margin-left: 0;
-    bottom: 0;
-    
-    position: relative;;
+    bottom: 0; 
+    position: relative;
+    /* display: block; */
     border-radius: 0px;
     }
+    .p-2-item div{
+        width: 100%;
+        font-weight: 600;
+    }
+    .p-2-item div h2{
+        width: 100%;
+    }
     .p-2-item a{
-        
-        right:0;
-    
-        margin-top: 50px;
-        padding: 10px 20px;
-        background-color: white;
-        border-radius: 10px;
+    display: none;  
     }
 
 
